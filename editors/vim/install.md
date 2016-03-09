@@ -13,10 +13,7 @@ title: Installation
     $ export BROWSER=firefox
     ```
 1. Globally install the `ensime-sbt` plugin. This will automatically create the `.ensime` config file for a project.
-   ```
-    $ echo 'addSbtPlugin("org.ensime" % "ensime-sbt" % "0.3.3")' \
-    >> ~/.sbt/0.13/plugins/plugins.sbt
-   ```
+   Look how to do this [here](https://github.com/metadoc/poms).
 1.  Add Ensime-Vim to your plugin manager of choice in your `.vimrc` or `init.vim`
 
 Plugins                                           |Your .{n}vimrc
